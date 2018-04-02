@@ -1,18 +1,18 @@
-body, h1 {
+body {
 	background: url("owen-cl-571744-unsplash.jpg");
 	background-size: cover;
  	font-family: 'IBM Plex Sans Condensed', sans-serif;
-	text-align: center;
 	color: grey;
+	background-repeat: no-repeat;
 
-  };
+  }
 
 a {
-	color: grey;
-	border: 2px;
-	padding: 20px;
-	margin: 0 auto;
-	width: 300px;
+	color: white;
+	
+	top: 50px;
+	right: 0px;
+
 }
 
 a:hover {
@@ -21,11 +21,14 @@ a:hover {
 }
 h1 {
 	font-size: 70px;
+	margin-top: 100px;
 }
 
 ul {
 	padding: 10px;
 	background: rgba(255,255,255,0.5);
+	top: 50px;
+	right: 0px;
 
 }
 
@@ -33,4 +36,5 @@ li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
 	color: grey;
+	
 }
